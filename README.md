@@ -19,3 +19,8 @@ Se pagina portafolio.html Link al portafolio => En este caso se desplego el Clon
 
 Se despliega el proyecto en github pages para su visualización.
 https://rmedinacl.github.io/
+
+## Proyectos Forkeados y Contribuciones
+
+https://github.com/ChokkanBonsai/ProyectoFinalG64
+https://github.com/rmedinacl/Dreamsroses.github.io-fork2.git
