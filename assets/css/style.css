@@ -7,6 +7,9 @@ header {
 }
 
 .container-fluid {
+  background: #28a745;
+}
+.container-home {
   background: black;
 }
 
