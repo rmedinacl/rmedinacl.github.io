@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 154.92 29.07">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        font-family: Byker-ExtraBold, Byker;
+        font-size: 24.35px;
+        font-weight: 700;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <text class="cls-3" transform="translate(.5 21.2)"><tspan class="cls-1" x="0" y="0">r</tspan><tspan x="10.32" y="0">od.medina</tspan></text>
+    <path class="cls-2" d="m146.11,1.94v9.11h7.81l-10.41,14.32v-9.11h-7.81l10.41-14.32"/>
+  </g>
+</svg>

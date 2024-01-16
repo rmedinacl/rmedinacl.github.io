@@ -45,16 +45,17 @@ header {
 }
 
 #footer-white {
-  background: white;
+  background: black;
 }
 
 .footer-text {
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  color: white;
   align-items: center;
 }
 #footer-brand {
-  color: black;
+  color: white;
 }
 
 .social-icons {
