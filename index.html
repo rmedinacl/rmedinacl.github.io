@@ -2,13 +2,212 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bio Rodrigo Medina</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bio Medina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agdasima&family=Montserrat:wght@300;400;500;600;700&family=Oswald&family=Roboto:wght@300;500&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <h1>Hello World</h1>
+    <header class="container-fluid opacity-10 sticky-top">
+        <div class="container text-end">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+                <div class="container-fluid py-2">
+                    <a class="navbar-brand" href="https://www.mountain-creative.com">
+                        <img src="./assets/img/LogoBrightMode.svg" alt="Logo_Mountain_Creative" width="150">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-sharp fa-solid fa-bars text-white"></i>
+                    </button>
+                    <div class="collapse navbar-collapse mt-2 justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav justify-content-end ">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#bio-info">Bio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#section-work">Proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="https://www.emol.com" target="_blank">Github</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <section>
+            <div id="bio-info" class="container bio-container">
+                <div class="row justify-content-center">
+
+                    <div class="col-12 col-md-4 text-center">
+                        <img src="./assets/img/medinabiolatam.png" alt="Profile Image"
+                            class="profile-image img-fluid mb-3">
+                    </div>
+
+
+                    <div class="col-12 col-md-8 bio-info">
+                        <h1>Rodrigo Medina</h1>
+                        <h4>FullStack Developer <span class="badge bg-success">Cursando</span></h4>
+                        <div class="social-media">
+                            <a href="https://github.com/rmedinacl" target="_blank">
+                                <i class="fa-brands fa-github social-icons"></i>
+                            </a>
+
+                            <i class="fa-solid fa-envelope social-icons"></i>
+
+                            <a href="https://www.linkedin.com/in/rmedinamc/" target="_blank">
+                                <i class="fa-brands fa-linkedin social-icons"></i>
+                            </a>
+
+
+                            <i class="fa-brands fa-whatsapp social-icons"></i>
+
+                            <!-- Add more icons as necessary -->
+                        </div>
+                        <div class="bio-container">
+                            <h5>Resumen Bio</h5>
+                            <p>Soy el fundador de <a href="https://mountain-creative.com" target="_blank">Mountain
+                                    Creative,</a> una compañía dedicada a crear soluciones
+                                innovadoras en la creación de MVP para que las empresas puedan incrementar sus ventas
+                                y mejorar procesos. También soy cofundador de Tecnobooking, una startup para la
+                                administración de Campamentos Mineros, que ha prosperado gracias al talento, estrategia
+                                y decisiones basadas en datos.</p>
+                            <strong>Actualmente estoy en camino para certificarme como Desarrollador Full Stack en <a
+                                    href="https://desafiolatam.com/" target="_blank">Desafio Latam</a></strong>
+                        </div>
+                        <hr>
+
+                        <h5>Experiencia</h5>
+                        <ul>
+                            <li>Founder & Manager Director Mountain Creative</li>
+                            <li>Co-founder Tecnobooking</li>
+                            <li>Country Manager Bollé Brands</li>
+                            <li>Gerente Comercial Nevados de Chillán</li>
+                            <li>Gerente Comercial Centro de Ski La Parva</li>
+                        </ul>
+                        <h5>Educación</h5>
+                        <ul>
+                            <li>FullStack Developer Nov.2024 @desafiolatam</li>
+                            <li>Diplomado en Estrategia de Negocios @universidadcatolica</li>
+                            <li>Licenciado Ciencias Sociales/Juridicas @ugabrielamistral</li>
+                        </ul>
+
+
+                    </div>
+                </div>
+        </section>
+        <section id="section-work" class="row g-3">
+            <h3>Últimos Trabajos</h3>
+            <div class="col-12 col-sm-6 col-md-4 ">
+                <div class="card" style="width:100%">
+                    <img src="./assets/img/gruoponlatam.png" width="100%" class="img-fluid rounded-4"
+                        alt="Teclado_Keychron1">
+                    <div class="card-body">
+                        <h5 class="card-title fs-3">
+                            Clone Grupon
+                        </h5>
+                        <p class="card-text mb-0">Clone de Grupon, construido con Bootstrap</p>
+                        <strong>Calificación Máxima</strong>
+                        <hr />
+                        <a href="/portafolio.html" target="_blank">
+                            <button type="button" class="btn btn-secondary">Ver Proyecto</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 ">
+                <div class="card" style="width:100%">
+                    <img src="./assets/img/M1_prod_2.png" width="100%" class="img-fluid rounded-4" alt="Mouse_M1">
+                    <div class="card-body">
+                        <h5 class="card-title fs-3">
+                            M1 Raton Inalambrico RGB sensor PAW3395 Bluetooth
+                        </h5>
+                        <p class="card-text mb-0">Keychron</p>
+                        <p class="card-text">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <small>9191 Avenida Vitacura, Chile</small>
+                        </p>
+                        <hr />
+                        <p class="card-text text-end">
+                            <small class="me-2 fs-5">$89.990</small>
+                            <strong id="promo-price" class="fs-3 fw-bold">$59.990</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 ">
+                <div class="card" style="width:100%">
+                    <img src="./assets/img/Bolle_prod_3.png" width="100%" class="img-fluid rounded-4"
+                        alt="Antiparra Bollé">
+                    <div class="card-body">
+                        <h5 class="card-title fs-3">
+                            Antiparras Bollé Nevada Red Matte Categoria 2 Lente Volt
+                        </h5>
+                        <p class="card-text mb-0">Bollé</p>
+                        <p class="card-text">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <small>Mall Sport, OutdoorLab</small>
+                        </p>
+                        <hr />
+                        <p class="card-text text-end">
+                            <small class="me-2 fs-5">$139.990</small>
+                            <strong id="promo-price" class="fs-3 fw-bold">$83.990</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section>
+        <form class="container-fluid">
+            <div class="container mt-5 py-3">
+                <h3 class="text-center text-white mt-4 mb-4">Recibe cupones en tu correo</h3>
+                <input type="string" class="form-control" placeholder="Nombre">
+            </div>
+            <div class=" container mb-3 py-3">
+                <input type="email" class="form-control" placeholder="Correo Electrónico">
+            </div>
+            <div class="text-center pb-5">
+                <button type="submit" class="btn fw-bold btn-lg btn-light" id="button">Enviar</button>
+            </div>
+        </form>
+    </section>
+    <footer class="container-fluid pt-5" id="footer-white">
+        <div class="container text-center">
+            <div class="row">
+                <a class="navbar-brand" href="https://www.mountain-creative.com" id="footer-brand">
+                    <img src="./assets/img/Logo_Black.svg" alt="Logo_Mountain_Creative" width="200">
+                </a>
+            </div>
+            <div class="footer-text">
+                <p class="text-center mt-2">2023 Rodrigo Medina ⚡️ <br> Desafio Latam - Desafio 4</p>
+            </div>
+        </div>
+    </footer>
+    <!-- scripts -->
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/8c0839d651.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
